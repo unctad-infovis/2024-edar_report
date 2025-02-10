@@ -11,13 +11,13 @@ function Footer() {
   return (
     <div className="app" id="app_footer_fr">
       <div className="footer_container">
-        <h2>FRENCH What do you want to do next?</h2>
+        <h2>Que voulez-vous faire ensuite ?</h2>
         <div className="footer_elements">
           <div className="footer_element footer_element_1">
-            <div className="footer_content anchor_videos" id="anchor_videos">
-              <h3>Watch the videos</h3>
+            <div className="footer_content anchor_videos hidden" id="anchor_videos">
+              <h3>Regardez les vidéos</h3>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/PLzwchtLJSk" title="Economic Development in Africa Report" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://www.youtube.com/embed/PLzwchtLJSk" title="Rapport 2024 sur le développement économique en Afrique" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
               </div>
               <ul>
                 <li>
@@ -42,7 +42,7 @@ function Footer() {
                   <a href="https://youtu.be/siCd0BVBh_c" target="_blank" rel="noreferrer">Deutsch</a>
                 </li>
               </ul>
-              <h4>Download the report video</h4>
+              <h4>Télécharger la vidéo du rapport</h4>
               <ul>
                 <li>
                   <a href="https://vimeo.com/1022047383" target="_blank" rel="noreferrer">English</a>
@@ -68,29 +68,29 @@ function Footer() {
                   <a href="https://trello.com/1/cards/66ea989dbf21c10916cdffb1/attachments/6717f44b00de797a3f7d0fd3/download/RMT_German.mp4" target="_blank" rel="noreferrer">Deutsch</a>
                 </li>
               </ul>
-              <h4>Watch the press conference</h4>
+              <h4>Regardez la conférence de presse</h4>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/AYD39tO7VGM" title="Economic Development in Africa Report press conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://www.youtube.com/embed/AYD39tO7VGM" title="Conférence de presse du Rapport 2024 sur le développement économique en Afrique" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
               </div>
-              <h4>Media assets</h4>
+              <h4>Ressources médias</h4>
               <ul>
                 <li>
-                  <a href="https://vimeo.com/1022207903" target="_blank" rel="noreferrer">Press conference</a>
+                  <a href="https://vimeo.com/1022207903" target="_blank" rel="noreferrer">Conférence de presse</a>
                 </li>
                 <li>
                   <a href="https://www.flickr.com/photos/unctad/albums/72177720321427679" target="_blank" rel="noreferrer">Photos</a>
                 </li>
                 <li>
-                  <a href="https://www.unognewsroom.org/story/en/2395/unctad-press-conference-22-october-2024" target="_blank" rel="noreferrer">Audio and other assets</a>
+                  <a href="https://www.unognewsroom.org/story/en/2395/unctad-press-conference-22-october-2024" target="_blank" rel="noreferrer">Audio et autres ressources</a>
                 </li>
               </ul>
             </div>
             <div className="footer_content anchor_podcasts" id="anchor_podcasts">
               <h3>Podcasts</h3>
-              <p>Listen to the Weekly Tradecast episodes that explore some of the main issues in the report</p>
+              <p>Écoutez l’épisode de The Weekly Tradecast qui explore les thématiques du rapport</p>
               <div className="iframe_container">
-                <iframe title="96. Rough seas ahead: How can global supply chains navigate shipping disruptions?" height="150" width="100%" style={{ border: 'none', minWidth: 'min(100%, 430px)' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=zix3p-161db2f-pb&btn-skin=009EDB&download=1&font-color=000000&fonts=Verdana&from=pb6admin&logo_link=none&rtl=0&share=1&size=240&skin=ffffff" allowFullScreen />
-                <span className="text"><a href="/podcast/rough-seas-ahead-how-can-global-supply-chains-navigate-shipping-disruptions">Rough seas ahead: How can global supply chains navigate shipping disruptions</a></span>
+                <iframe title="131. Rapport de l’ONU : libérer le potentiel commercial de l’Afrique" height="150" width="100%" style={{ border: 'none', minWidth: 'min(100%, 430px)' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=e79c8-17eacbf-pb&btn-skin=009EDB&download=1&font-color=000000&fonts=Verdana&from=pb6admin&logo_link=none&rtl=0&share=1&size=240&skin=ffffff" allowFullScreen />
+                <span className="text"><a href="/fr/podcast/rapport-de-lonu-liberer-le-potentiel-commercial-de-lafrique">Rapport de l’ONU : libérer le potentiel commercial de l’Afrique</a></span>
               </div>
             </div>
           </div>
