@@ -64,10 +64,10 @@ function Footer() {
                   <a href="https://trello.com/1/cards/6787838c3f19ce98f5a67697/attachments/67aa65127710537e9cc3206a/download/edar-HI.mp4" target="_blank" rel="noreferrer">Hindi हिंदी</a>
                 </li>
               </ul>
-              <h4>Regardez la conférence de presse</h4>
+              {/*<h4>Regardez la conférence de presse</h4>
               <div className="iframe_container youtube_iframe">
                 <iframe src="https://www.youtube.com/embed/" title="Conférence de presse du Rapport 2024 sur le développement économique en Afrique" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-              </div>
+              </div>*/}
               <h4>Ressources médias</h4>
               <ul>
                 {/* <li>
